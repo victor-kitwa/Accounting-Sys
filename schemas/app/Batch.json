@@ -1,0 +1,27 @@
+{
+  "name": "Batch",
+  "label": "Batch",
+  "naming": "manual",
+  "fields": [
+    {
+      "fieldname": "name",
+      "fieldtype": "Data",
+      "label": "Batch",
+      "required": true
+    },
+    {
+      "fieldname": "expiryDate",
+      "fieldtype": "Date",
+      "label": "Expiry Date",
+      "required": false
+    },
+    {
+      "fieldname": "manufactureDate",
+      "fieldtype": "Date",
+      "label": "Manufacture Date",
+      "required": false
+    }
+  ],
+  "quickEditFields": ["expiryDate", "manufactureDate"],
+  "keywordFields": ["name"]
+}

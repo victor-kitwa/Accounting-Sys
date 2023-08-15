@@ -1,0 +1,79 @@
+{
+  "name": "InventorySettings",
+  "label": "Inventory Settings",
+  "isSingle": true,
+  "isChild": false,
+  "fields": [
+    {
+      "fieldname": "valuationMethod",
+      "label": "Valuation Method",
+      "fieldtype": "Select",
+      "options": [
+        {
+          "value": "FIFO",
+          "label": "FIFO"
+        },
+        {
+          "value": "MovingAverage",
+          "label": "Moving Average"
+        }
+      ],
+      "default": "FIFO",
+      "required": true,
+      "section": "Default"
+    },
+    {
+      "fieldname": "defaultLocation",
+      "label": "Default Location",
+      "fieldtype": "Link",
+      "target": "Location",
+      "create": true,
+      "section": "Default"
+    },
+    {
+      "fieldname": "stockInHand",
+      "label": "Stock In Hand Acc.",
+      "fieldtype": "Link",
+      "target": "Account",
+      "section": "Accounts"
+    },
+    {
+      "fieldname": "stockReceivedButNotBilled",
+      "label": "Stock Received But Not Billed Acc.",
+      "fieldtype": "Link",
+      "target": "Account",
+      "section": "Accounts"
+    },
+    {
+      "fieldname": "costOfGoodsSold",
+      "label": "Cost Of Goods Sold Acc.",
+      "fieldtype": "Link",
+      "target": "Account",
+      "section": "Accounts"
+    },
+    {
+      "fieldname": "enableBarcodes",
+      "label": "Enable Barcodes",
+      "fieldtype": "Check",
+      "section": "Features"
+    },
+    {
+      "fieldname": "enableBatches",
+      "label": "Enable Batches",
+      "fieldtype": "Check",
+      "section": "Features"
+    },
+    {
+      "fieldname": "enableSerialNumber",
+      "label": "Enable Serial Number",
+      "fieldtype": "Check",
+      "section": "Features"
+    },
+    {
+      "fieldname": "enableUomConversions",
+      "label": "Enable UOM Conversion",
+      "fieldtype": "Check",
+      "section": "Features"
+    }
+  ]
+}

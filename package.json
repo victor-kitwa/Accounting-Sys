@@ -1,7 +1,7 @@
 {
   "name": "viking-accountant",
-  "version": "0.17.1",
-  "description": "Simple book-keeping app for everyone",
+  "version": "0.2.1",
+  "description": "Simple accounting software app for everyone",
   "author": {
     "name": "Viking Accountant Technologies Pvt. Ltd.",
     "email": "hello@viking-accountant.comio"

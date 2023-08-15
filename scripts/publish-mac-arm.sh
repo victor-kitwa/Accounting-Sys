@@ -18,8 +18,8 @@ rm -rf build_publish
 mkdir build_publish
 cd build_publish
 
-# Clone and cd into books
-git clone https://github.com/frappe/books --depth 1
+
+git clone https://github.com/victor-kitwa --depth 1
 cd books
 
 # Copy creds to log_creds.txt

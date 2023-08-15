@@ -10,10 +10,10 @@
       class="w-full w-form shadow-lg rounded-lg border relative bg-white"
       style="height: 700px"
     >
-      <!-- Welcome to Frappe Books -->
+      <!-- Welcome to Viking Accountant -->
       <div class="px-4 py-4">
         <h1 class="text-2xl font-semibold select-none">
-          {{ t`Welcome to Frappe Books` }}
+          {{ t`Welcome to Viking Accountant` }}
         </h1>
         <p class="text-gray-600 text-base select-none">
           {{
@@ -76,10 +76,10 @@
         </div>
         <div>
           <p class="font-medium">
-            {{ t`Create Demo` }}
+            {{ t`Create testing Instance` }}
           </p>
           <p class="text-sm text-gray-600">
-            {{ t`Create a demo company to try out Frappe Books` }}
+            {{ t`Create a "fake" company to test out the software` }}
           </p>
         </div>
       </div>

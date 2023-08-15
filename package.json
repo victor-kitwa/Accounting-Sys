@@ -1,10 +1,10 @@
 {
-  "name": "frappe-books",
+  "name": "viking-accountant",
   "version": "0.17.1",
   "description": "Simple book-keeping app for everyone",
   "author": {
-    "name": "Frappe Technologies Pvt. Ltd.",
-    "email": "hello@frappe.io"
+    "name": "Viking Accountant Technologies Pvt. Ltd.",
+    "email": "hello@viking-accountant.comio"
   },
   "scripts": {
     "dev": "node build/scripts/dev.mjs",
@@ -87,9 +87,9 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "homepage": "https://frappebooks.com",
+  "homepage": "https://vikingaccountant.com",
   "repository": {
-    "url": "https://github.com/frappe/books"
+    "url": "https://github.com/victor-kitwa"
   },
   "license": "AGPL-3.0-only"
 }

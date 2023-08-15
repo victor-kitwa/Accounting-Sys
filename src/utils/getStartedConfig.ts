@@ -46,7 +46,7 @@ export function getGetStartedConfig(): GetStartedConfigItem[] {
           action: () => routeTo('/chart-of-accounts'),
           fieldname: 'chartOfAccountsReviewed',
           documentation:
-            'https://docs.frappebooks.com/setting-up/initial-entries.html#add-additional-bank-accounts',
+            'https://github.com/victor-kitwa',
         },
         {
           key: 'Opening Balances',
@@ -55,7 +55,7 @@ export function getGetStartedConfig(): GetStartedConfigItem[] {
           fieldname: 'openingBalanceChecked',
           description: t`Set up your opening balances before performing any accounting entries`,
           documentation:
-            'https://docs.frappebooks.com/setting-up/opening-balances.html',
+            'https://github.com/victor-kitwa',
         },
         {
           key: 'Add Taxes',
@@ -65,7 +65,7 @@ export function getGetStartedConfig(): GetStartedConfigItem[] {
           description: t`Set up your tax templates for your sales or purchase transactions`,
           action: () => routeTo('/list/Tax'),
           documentation:
-            'https://docs.frappebooks.com/setting-up/initial-entries.html#add-taxes',
+            'https://github.com/victor-kitwa',
         },
       ],
     },
@@ -86,7 +86,7 @@ export function getGetStartedConfig(): GetStartedConfigItem[] {
             }),
           fieldname: 'salesItemCreated',
           documentation:
-            'https://docs.frappebooks.com/setting-up/initial-entries.html#add-sales-items',
+            'https://github.com/victor-kitwa',
         },
         {
           key: 'Add Customers',
@@ -102,7 +102,7 @@ export function getGetStartedConfig(): GetStartedConfigItem[] {
             }),
           fieldname: 'customerCreated',
           documentation:
-            'https://docs.frappebooks.com/setting-up/initial-entries.html#add-customers',
+            'https://github.com/victor-kitwa',
         },
         {
           key: 'Create Sales Invoice',
@@ -112,7 +112,7 @@ export function getGetStartedConfig(): GetStartedConfigItem[] {
           action: () => routeTo('/list/SalesInvoice'),
           fieldname: 'invoiceCreated',
           documentation:
-            'https://docs.frappebooks.com/transactions/sales-invoices.html',
+            'https://github.com/victor-kitwa',
         },
       ],
     },
@@ -153,7 +153,7 @@ export function getGetStartedConfig(): GetStartedConfigItem[] {
           action: () => routeTo('/list/PurchaseInvoice'),
           fieldname: 'billCreated',
           documentation:
-            'https://docs.frappebooks.com/transactions/purchase-invoices.html',
+            'https://github.com/victor-kitwa',
         },
       ],
     },

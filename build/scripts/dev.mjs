@@ -31,7 +31,7 @@ let isReload = false;
  */
 let electronProcess = null;
 
-console.log(`running Frappe Books in dev mode\nroot: ${root}`);
+console.log(`running Viking Accountant in dev mode\nroot: ${root}`);
 /**
  * @type {import('execa').ExecaChildProcess<string>}
  */
@@ -123,7 +123,7 @@ async function handleResult(result) {
 }
 
 function runElectron() {
-  const electronProcess = $$`npx electron  ${path.join(
+  const electronProcess = $$`npx electron --inspect=5858  ${path.join(
     root,
     'dist_electron',
     'dev',

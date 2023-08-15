@@ -254,7 +254,7 @@ export default defineComponent({
     reportIssue,
     toggleSidebar,
     openDocumentation() {
-      ipc.openLink('https://docs.frappebooks.com/' + docsPathRef.value);
+      ipc.openLink('https://github.com/victor-kitwa/' + docsPathRef.value);
     },
     setActiveGroup() {
       const { fullPath } = this.$router.currentRoute.value;
